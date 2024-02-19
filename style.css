@@ -38,6 +38,7 @@ header>nav>a{
     font-size: 1.25vw;
     font-weight: 400;
     margin:0 20px;
+    transition: 1s;
 }
 header>nav>a:first-child{
     color: #5454D4;;
@@ -55,15 +56,18 @@ header>button{
     font-weight: 400;
     letter-spacing: -0.5px;
     background: none;
+    transition: 1s;
 }
 header>nav>a:hover{
     color: #5454D4;
     font-size: 1.5vw;
+    transition: 1s;
 }
 header>button:hover{
     color: #5454D4;
     font-size: 1.5vw;
     border: 1px solid #5454D4;
+    transition: 1s;
 }
 main{
     display: flex;
@@ -106,10 +110,12 @@ main{
     font-weight: 700;
     margin-top: 20px;
     border: none;
+    transition: 1s;
 }
 .main-container>button:hover{
     font-size: 1.7vw;
     border: 2px double white;
+    transition: 1s;
 }
 .main-img{
     width: 45%;
@@ -206,7 +212,18 @@ section p{
 .back-color-yellow{
     background-color: rgba(254, 220, 90, 0.10);
 }
-
+.box>div>img:hover{
+    width: 3em;
+}
+.back-color-purple:hover{
+    border: 1px solid rebeccapurple;
+}
+.back-color-red:hover{
+    border: 1px solid red;
+}
+.back-color-yellow:hover{
+    border: 1px solid yellow;
+}
 .box>h3{
     color: #FFF;
     text-align: center;
@@ -285,12 +302,14 @@ aside button{
     font-size: 1.5vw;
     font-weight: 700;
     border: none;
+    transition: 1s;
 }
 aside button:hover{
     width: 16vw;
     height: 7vh;
     font-size: 1.8vw;
     border: 2px double white;
+    transition: 1s;
 }
 footer{
     height: 20vh;
